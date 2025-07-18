@@ -1,99 +1,107 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="th">
 <head>
   <meta charset="UTF-8">
-  <title>ร้านไส้กรอกอีสาน CMU</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ร้านไส้กรอกอีสานแซ่บเว่อร์</title>
   <style>
     body {
       font-family: 'Sarabun', sans-serif;
-      background-color: #fff8f0;
+      background-color: #fffaf4;
       margin: 0;
       padding: 0;
     }
     header {
-      background-color: #a52a2a;
+      background-color: #ff5e57;
       color: white;
       padding: 20px;
       text-align: center;
     }
     header img {
       height: 80px;
-      vertical-align: middle;
+      margin-bottom: 10px;
     }
-    h1 {
-      display: inline;
-      margin-left: 15px;
-      font-size: 2em;
+    .container {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
     }
-    .gallery {
+    .product {
       display: flex;
-      justify-content: center;
+      flex-wrap: wrap;
       gap: 20px;
-      padding: 30px;
+      justify-content: center;
     }
-    .gallery img {
-      width: 250px;
+    .card {
+      background-color: white;
       border-radius: 10px;
-      box-shadow: 0 0 10px #ccc;
-    }
-    .price-list {
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      width: 300px;
       text-align: center;
+      padding: 15px;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .price {
+      color: #e63946;
       font-size: 1.2em;
-      margin-bottom: 30px;
-    }
-    .price-list ul {
-      list-style: none;
-      padding: 0;
-    }
-    .price-list li {
       margin: 10px 0;
     }
-    .ad-section {
-      background-color: #ffe4e1;
-      padding: 20px;
+    .ad-banner {
+      background-color: #ffe066;
+      padding: 15px;
       text-align: center;
+      margin-top: 30px;
+      border-radius: 10px;
       font-weight: bold;
-      font-size: 1.1em;
     }
     footer {
-      background-color: #a52a2a;
+      background-color: #ff5e57;
       color: white;
       text-align: center;
       padding: 10px;
+      margin-top: 40px;
     }
   </style>
 </head>
 <body>
 
-  <header>
-    <img src="logo.png" alt="โลโก้ร้าน">
-    <h1>ร้านไส้กรอกอีสาน CMU</h1>
-  </header>
+<header>
+  <img src="logo.png" alt="โลโก้ร้านแซ่บเว่อร์">
+  <h1>ร้านไส้กรอกอีสานแซ่บเว่อร์</h1>
+  <p>อร่อย เปรี้ยว แซ่บ ราคานักศึกษา</p>
+</header>
 
-  <div class="gallery">
-    <img src="sausage1.jpg" alt="ไส้กรอกอีสาน 1">
-    <img src="sausage2.jpg" alt="ไส้กรอกอีสาน 2">
-    <img src="sausage3.jpg" alt="ไส้กรอกอีสาน 3">
+<div class="container">
+  <div class="product">
+    <div class="card">
+      <img src="https://api2.krua.co/wp-content/uploads/2022/06/RT1732_Gallery_-03.jpg" alt="ไส้กรอกอีสานหมู">
+      <h2>ไส้กรอกอีสานหมู</h2>
+      <p class="price">฿95 / แพ็ค</p>
+    </div>
+    <div class="card">
+      <img src="https://cheewajit.com/app/uploads/2018/12/web-2.jpg" alt="ไส้กรอกอีสานสูตรดั้งเดิม">
+      <h2>สูตรดั้งเดิม</h2>
+      <p class="price">฿89 / แพ็ค</p>
+    </div>
+    <div class="card">
+      <img src="https://foodenjoygroup.com/wp-content/uploads/2020/05/DSC04453-scaled.jpg" alt="ไส้กรอกอีสานเปรี้ยว">
+      <h2>ไส้กรอกเปรี้ยวจัดจ้าน</h2>
+      <p class="price">฿99 / แพ็ค</p>
+    </div>
   </div>
 
-  <div class="price-list">
-    <h2>รายการสินค้า</h2>
-    <ul>
-      <li>ไส้กรอกอีสานหมูดั้งเดิม - 35 บาท</li>
-      <li>ไส้กรอกอีสานไร้มัน - 40 บาท</li>
-      <li>ไส้กรอกอีสานไก่ - 38 บาท</li>
-    </ul>
+  <div class="ad-banner">
+    🎉 โปรโมชั่นพิเศษ! ซื้อครบ 3 แพ็ค แถมข้าวเหนียวฟรี 1 ห่อ 🎁
   </div>
+</div>
 
-  <div class="ad-section">
-    🎉 โปรโมชั่นพิเศษสำหรับนักศึกษา CMU! ซื้อครบ 100 บาท รับฟรีน้ำจิ้มสูตรเด็ด 🎉
-  </div>
-
-  <footer>
-    ติดต่อเรา: 081-234-5678 | Facebook: @SaiKrokCMU
-  </footer>
+<footer>
+  &copy; 2025 ร้านไส้กรอกอีสานแซ่บเว่อร์ | ติดต่อ: @zaabsausages
+</footer>
 
 </body>
 </html>
 
- 
